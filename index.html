@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <style>
+    /* CSS reset */
+    
+    body {
+      font-family: 'Spartan', sans-serif;
+      color: white;
+      font-weight: bold;
+      margin: 0px;
+      padding: 0px;
+      height: 850px;
+      background: url("back-ground.jpg");
+
+    }
+
+    .left {
+
+      display: inline-block;
+      /* border: 2px solid red; */
+      position: absolute;
+      left: 25px;
+      top: 19px;
+    }
+
+    .left img {
+      width: 56px;
+      filter: invert(100%);
+    }
+
+    .left div {
+      line-height: 19px;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .txt {
+      color: white;
+      font-size: 12px;
+
+    }
+
+    .navbar {
+      display: inline-block;
+      width: 171%;
+      margin-left: 329px;
+    }
+
+    .mid {
+      display: block;
+      width: 36%;
+      margin: 0, 0;
+
+    }
+
+    .navbar li {
+      display: inline-block;
+      font-size: 22px;
+    }
+
+    .navbar li a {
+      color: white;
+      /* text-decoration: none; to remove line below title navbar */
+      text-decoration: none;
+      padding: 34px 29px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+      text-decoration: underline;
+      color: gray;
+    }
+
+    .right {
+
+      position: absolute;
+      right: 38px;
+      top: 21px;
+      display: inline-block;
+    }
+
+    .btn {
+      margin: 0px 0px;
+      background-color: black;
+      color: white;
+      padding: 4px 14px;
+      border: 2px solid grey;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+
+
+    }
+
+    .btn:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .container {
+      border: 2px solid white;
+      margin: 49px 116px;
+      padding: 60px 41px;
+      width: 31%;
+      border-radius: 50px;
+      color: white;
+      border-left: 22px;
+      border-right: 22px;
+    }
+
+    .form-group input {
+      text-align: center;
+      border: 9px solid rgb(255, 255, 255);
+      border-radius: 33px;
+      display: block;
+      width: 166px;
+      margin: 22px 22px;
+    }
+
+    .container h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <header>
+    <!-- left box for logo -->
+    <div class="left">
+      <img src="logo.png">
+      <div class="txt">
+        FITNESS CLUB
+      </div>
+    </div>
+    <!-- mid box for nav-bar  -->
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">AboutUs</a></li>
+        <li><a href="#">ContactUs</a></li>
+      </ul>
+    </div>
+    <!-- right for buttons -->
+    <div class="right">
+      <button class="btn">Call US</button>
+      <button class="btn">Email</button>
+      <button>hello</button>
+  </header>
+  <div class="container">
+    <h1>JOIN NOW</h1>
+    <form action="action.php">
+      <div class="form-group">
+        <input type="" name="" placeholder="Enter your Name">
+        <div class="form-group">
+          <input type="" name="" placeholder="Enter your Age">
+          <div class="form-group">
+            <input type="" name="" placeholder="Enter your City">
+            <div class="form-group">
+              <input type="" name="" placeholder="Enter your Gender">
+              <div class="form-group">
+                <input type="" name="" placeholder="Enter your Email">
+              </div>
+    </form>
+    <button class="btn">Submit Now</button>
+  </div>
+</body>
+
+</html>
